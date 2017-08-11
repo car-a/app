@@ -1,2 +1,2 @@
 # app
-UI app
+UI App
