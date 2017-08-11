@@ -1,0 +1,27 @@
+{
+  "name": "car-a",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "custdev-sapui5-infra-util": "*",
+    "grunt": "0.4.5",
+    "grunt-cli": "1.2.0"
+  },
+  "sapui5": {
+    "version": "1.42.9",
+    "resources": "/sdk/openui5-sdk-1.48.5/resources",
+    "testResources": "/sdk/openui5-sdk-1.48.5/test-resources",
+    "libs": {},
+    "apps": {
+      "App": {
+        "namespace": "gac.car.app",
+        "resources": "webapp",
+        "testResources": "webapp/test"
+      }
+    },
+    "proxies": [],
+    "browsers": [
+      "Chrome"
+    ]
+  }
+}

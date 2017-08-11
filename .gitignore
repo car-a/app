@@ -35,6 +35,9 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+sdk/
+**/resources/**
+**/test-resources/**
 
 # Typescript v1 declaration files
 typings/
@@ -48,6 +51,12 @@ typings/
 # Optional REPL history
 .node_repl_history
 
+# User specific project settings for WebIDE
+.user.project.json
+
+# folder for build output
+dist
+
 # Output of 'npm pack'
 *.tgz
 
@@ -56,4 +65,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
