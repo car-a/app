@@ -1,10 +1,10 @@
 <mvc:View
-		controllerName="gac.car.app.controller.App"
-		xmlns:mvc="sap.ui.core.mvc"
-		displayBlock="true"
-		xmlns="sap.m">
-		<App id="idAppControl">
-			<Page id="idPageControl" title="{i18n>APP_TITLE}">
-  		</Page>
-		</App>
+	controllerName="gac.car.app.controller.App"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"
+	xmlns="sap.m">
+	<App id="idAppControl">
+		<Page id="idPageControl" title="{i18n>APP_TITLE}">
+		</Page>
+	</App>
 </mvc:View>

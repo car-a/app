@@ -1,14 +1,13 @@
 sap.ui.define([
-		"sap/ui/core/mvc/Controller"
-	], function (Controller) {
-		"use strict";
+	"sap/ui/core/mvc/Controller"
+], function (Controller) {
+	"use strict";
 
-		return Controller.extend("gac.car.app.controller.App", {
+	return Controller.extend("gac.car.app.controller.App", {
 
-			onInit : function () {
-			}
+		onInit: function () {
+		}
 
-		});
+	});
 
-	}
-);
+});
